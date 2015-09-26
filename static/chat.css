@@ -1,0 +1,43 @@
+#yack{
+  width: 300px;
+  position: fixed;
+  z-index: 100;
+  right: 10px;
+  bottom: 0px;
+  border-radius:3px;
+  padding: 15px;
+  background: #324155;
+  color: #353535;
+
+}
+
+#yack a.yack-title {
+  padding: 0 10px 0 8px;
+  text-decoration: none !important;
+  line-height: 28px;
+  font-weight: normal;
+  font-size: 13px;
+  color: #CCC;
+  letter-spacing: normal;
+  border: 0;
+  background-color: #324155;
+  box-shadow: 0 -1px 5px rgba(0,0,0,0.20);
+  outline-style: none;
+  outline-width: 0;
+}
+
+#input {
+  margin-top: 0.5em;
+}
+
+#inbox{
+  max-height: 250px;
+  overflow-y:scroll;
+}
+
+
+#inbox .message {
+  
+  background:#fff;
+  font-size: 80%;
+}
